@@ -1,0 +1,31 @@
+{
+	"database": [{
+		"name": "Cassandra_default_catalog",
+		"schemas": [{
+			"name": "name",
+			 "tables": [{
+				"name": "organizations",
+				"columns": [{
+					"name": "address",
+					"type": "UDT"
+				},
+				{
+					"name": "email",
+					"type": "UTF8Type"
+				},
+				{
+					"name": "members",
+					"type": "MAP"
+				},
+				{
+					"name": "name",
+					"type": "UTF8Type"
+				},
+				{
+					"name": "phone",
+					"type": "UDT"
+				}]
+			}]
+		}]
+	}]
+}
